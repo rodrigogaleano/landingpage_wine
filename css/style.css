@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Header */
+
+header{
+    width: 100%;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.logo{
+    float: left;
+    padding: 10px;
+}
+
+.menu{
+    float: right;
+}
+
+.menu li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 18px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+/*     border: 1px solid red;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px; */
+    margin-left: 10px;
+}
+
+.menu a:hover{
+    color: #B52B35;
+}
+
+/* ----- CONTENT ----- */
+
+
+.formContainer{ /* Formulário */
+    max-width: 400px;
+    padding: 20px;
+    float: left;
+    margin-top: 100px;
+}
+
+input, select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]{
+    color: white;
+    background-color: #B52B35;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 16px;
+}
+.image{
+    float: right;
+}
+
+.image img{
+    height: 500px;
+}
+
+/* ----- FOOTER ----- */
+
+footer{
+    clear: left;
+    clear: right;
+    text-align: center;
+    padding: 40px;
+    color: white;
+}
