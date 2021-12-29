@@ -14,6 +14,17 @@ body{
     margin: auto;
 }
 
+hr{
+
+    border: none;
+    height: 1px;
+    background-color: #333; /* Modern Browsers */
+
+}
+
+a:visited{
+    text-decoration: none;
+}
 /* Header */
 
 header{
@@ -36,18 +47,12 @@ header{
 .menu li{
     display: inline-block;
     list-style-type: none;
-    padding: 18px;
+    padding: 20px;
 }
 
 .menu a{
     text-decoration: none;
     color: white;
-/*     border: 1px solid red;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 20px; */
     margin-left: 10px;
 }
 
@@ -55,32 +60,51 @@ header{
     color: #B52B35;
 }
 
-/* ----- CONTENT ----- */
+/* ----- CONTEÚDO 1 ----- */
 
+.content1{
+    height: 500px;
+    width: 100%;
+}
 
 .formContainer{ /* Formulário */
     max-width: 400px;
     padding: 20px;
     float: left;
-    margin-top: 100px;
+    margin-top: 110px;
+}
+
+.formContainer h2{
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 input, select{
     width: 100%;
+    color: white;
     box-sizing: border-box;
     padding: 10px;
-    border: none;
+    border: solid 2px white;
     margin-bottom: 10px;
+    background-color: transparent;
+    border-radius: 50px;
 }
 
 input[type="submit"]{
     color: white;
-    background-color: #B52B35;
+    border: solid 1px #B52B35;
+    background-color:black;
     font-weight: bold;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+input[type="submit"]:hover{
+    background-color: #B52B35;
 }
 
 h2{
-    font-size: 16px;
+    font-size: 24px;
 }
 .image{
     float: right;
@@ -88,14 +112,66 @@ h2{
 
 .image img{
     height: 500px;
+    display: flex;
+}
+
+/* ----- CONTEÚDO 2 ----- */
+
+.content2{
+    height: 500px;
+    text-align: center;
+}
+
+.image2 img{
+    height: 500px;
+    float: left;
+}
+
+.text h2{
+    font-size: 24px;
+    padding: 40px;
+}
+
+.text p{
+    font-size: 18px;
+    padding: 10px;
+    text-align: left;
 }
 
 /* ----- FOOTER ----- */
 
 footer{
-    clear: left;
-    clear: right;
     text-align: center;
-    padding: 40px;
     color: white;
+    padding: 15px;
+}
+
+footer p{
+    color: #c2c2c2;
+    padding: 10px;
+}
+
+footer h3{
+    color: #c2c2c2;
+}
+
+.socialmedia li{
+    display: inline-block;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.socialmedia img{
+    height: 24px;
+}
+
+.creditos{
+    font-size: 12px;
+}
+
+.creditos a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #c2c2c2;
 }

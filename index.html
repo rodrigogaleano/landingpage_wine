@@ -4,58 +4,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/ico.png" type="image/png">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>Página de Captura - Vinho</title>
 </head>
 
 <body>
 
-    <div class="container">
+    <div class="container"> <!-- DIV que contém todo o conteúdo da página -->
 
+        <!-- Cabeçalho -->
         <header>
-            <h1 class="logo">LOGO</h1>
-
+            <h1 class="logo">LOGO</h1> <!-- Espaço dedicado para a logotipo -->
             <ul class="menu">
+                <!-- Menu de navegação -->
                 <a href="#">
-                    <li>Home</li>
+                    <li>Página Inicial</li>
                 </a>
                 <a href="#">
-                    <li>About us</li>
+                    <li>Sobre nós</li>
                 </a>
             </ul>
         </header>
 
-        <section>
-            <div class="formContainer">
-                <h2 class="mb">Experimente os melhores vinhos tintos do MS</h2>
-                <p class="mb">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                    been the industry's standard dummy text ever since the 1500s.</p>
+        <hr><!-- Divider -->
 
+        <!-- Seção que contém o formulário e uma imagem -->
+        <div class="content1">
+            <div class="formContainer">                
+                <h2>Experimente os melhores vinhos do mercado</h2>
                 <form action="">
                     <input type="text" name="name" id="name" placeholder="Nome">
                     <input type="email" name="email" id="email" placeholder="E-mail">
-                    <select name="place" id="">
-                        <option value="cg">Campo Grande</option>
-                        <option value="pp">Ponta Porã</option>
-                        <option value="dd">Dourados</option>
-                        <option value="tl">Três Lagoas</option>
-                    </select>
-                    <input type="submit" value="Contate-me">
+                    <input type="submit" value="ENTRAR EM CONTATO">
                 </form>
             </div>
-            <div class="image">
-                <img src="./img/background.jpg">
-            </div>
-        </section>
 
+            <div class="image">
+                <img src="./img/bottle.jpg">
+            </div>
+        </div>
+
+        <hr> <!-- Divider -->
+
+        <!-- Sobre nós -->
+        <div class="content2">
+            <div class="image2">
+                <img src="./img/glass2.jpg" >
+            </div>
+
+            <div class="text">
+                <h2>Quem somos?</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Congue quisque egestas diam in arcu. A arcu cursus vitae congue mauris
+                    rhoncus aenean vel elit. Ultrices gravida dictum fusce ut placerat. Faucibus nisl tincidunt eget
+                    nullam non nisi est sit. Eu sem integer vitae justo eget magna fermentum. Enim nec dui nunc mattis enim ut tellus elementum sagittis. Non enim praesent elementum facilisis leo vel fringilla. Neque volutpat ac tincidunt vitae semper quis lectus. Tortor pretium viverra suspendisse potenti nullam ac tortor vitae purus. Sit amet justo donec enim diam vulputate ut. Id semper risus in hendrerit gravida rutrum quisque non. Pellentesque nec nam aliquam sem et tortor consequat id porta. At risus viverra adipiscing at in tellus integer feugiat scelerisque.</p>
+            </div>
+
+        </div>
+
+
+        <hr> <!-- Divider -->
+
+        <!-- Rodapé -->
         <footer>
-            <p>
-                Este website foi desenvolvido com fins estudantis e o conteúdo apresentado nessa página é totalmente ficticio.
-            </p>
+            
+            <h3>Rodrigo Galeano</h3> 
+
+            <ul class="socialmedia"> <!-- Lista com meus links -->
+                <li><a href="https://www.linkedin.com/in/rodrigo-galeano-63712b197/" target="_blank"><img src="./img/socialmedia/linkedin.png"></a></li>
+                <li><a href="https://github.com/rodrigogaleano" target="_blank"><img src="./img/socialmedia/github.png"></a></li>
+                <li><a href="https://www.instagram.com/rodrigo1galeano/" target="_blank"><img src="./img/socialmedia/instagram.png"></a></li>
+            </ul>
+
+            <p>Este <em>website</em> foi desenvolvido com fins estudantis e o conteúdo aqui apresentado é totalmente ficticio.</p> 
+
+            <p class="creditos">Ícones feitos por <a href="https://www.flaticon.com/br/autores/laisa-islam-ani" target="_blank"> Laisa Islam Ani </a> e <a href="https://www.freepik.com">Freepik</a></p> <!-- Créditos -->
+            
         </footer>
 
     </div>
 
 </body>
-
 </html>
