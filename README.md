@@ -1,6 +1,6 @@
 <h1 align="center">Página de Captura - Vinho</h1>
 
-Você pode acessar o projeto através deste <a href="https://rodrigogaleano.github.io/landingpage_wine/">link</a>.
+Você pode acessar o projeto através deste <a href="https://rodrigogaleano.github.io/landingpage_wine/" target="_blank">link</a>.
 
 Desenvolvi essa página de captura fictícia para colocar em prática os conhecimentos de HTML e CSS adquiridos durante os 6 primeiros módulos do curso de <strong>desenvolvimento web full-stack</strong> do <a href="https://programadorbr.com/" target="_blank">programadorbr</a>.
 
