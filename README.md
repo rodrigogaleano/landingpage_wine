@@ -5,18 +5,11 @@ Você pode acessar o projeto através deste <a href="https://rodrigogaleano.gith
 Desenvolvi essa página de captura fictícia para colocar em prática os conhecimentos de HTML e CSS adquiridos durante os 6 primeiros módulos do curso de <strong>desenvolvimento web full-stack</strong> do <a href="https://programadorbr.com/" target="_blank">programadorbr</a>.
 
 <p align="center">
- <a href="#features">Features</a> •
  <a href="#pré-requisitos">Pré Requisitos</a> •
  <a href="#tecnologias">Tecnologias</a> •
  <a href="#autor">Autor</a>
 </p>
 
-### Features
-
-- [x] Formulário
-- [x] Tags semânticas
-- [x] Menu feito utilizando lista não ordenada
-- [ ] Responsividade
 
 ### Pré-requisitos
 
